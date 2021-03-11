@@ -1,9 +1,17 @@
 import React from 'react';
+import {Navbar} from './components/Navbar';
+import {TodoForm} from './components/TodoForm';
 
-function App() {
-    return (
-        <h1>hello TS</h1>
-    );
+const App: React.FC = () => {
+    return <>
+    <Navbar />
+        <div className={'container'}>
+
+            <TodoForm />
+
+        </div>
+    </>
+
 }
 
 export default App;
