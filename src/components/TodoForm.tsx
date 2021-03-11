@@ -29,14 +29,14 @@ export const TodoForm: React.FC<TodoFormProps> = (props) => {
     }
 
     return (
-        <div className={'input-field mt2'}>
+        <div className='input-field mt2'>
             <input
                 // onChange={changeHandler}
                 // value={title}
                 ref={ref}
                 type="text"
                 id="title"
-                placeholder={'Введите название дела'}
+                placeholder='Введите название дела'
                 onKeyPress={keyPressHandler}/>
             <label htmlFor="title" className="active">
                 Введите название дела
